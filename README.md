@@ -13,7 +13,9 @@ Prepare the lists from each linear equations and assign in np.array()
 Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
-## Program:#Program to find the solution for the given linear equations.
+## Program:
+'''
+#Program to find the solution for the given linear equations.
 #Developed by:  ARJUN N S
 #RegisterNumber: 212223230020
 import numpy as np
@@ -22,6 +24,7 @@ coefficients = np.array([[1, 3], [2, 5]])
 constants = np.array([5, -3])
 solution = np.linalg.solve(coefficients, constants)
 print(solution)
+'''
 
 ## Output:
 ![alt text](<Screenshot 2024-02-28 083356.png>)
